@@ -9,7 +9,7 @@ You can install the development version of FUNscore from [GitHub](https://github
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("BioInfoNote/calFUNscore")
+devtools::install_github("BioInfoNote/FUNscore")
 ```
 
 ## Example 

@@ -1,0 +1,30 @@
+Package: FUNscore
+Type: Package
+Title: Calculate Functional score using scRNA or bulk transcriptomic data
+Version: 0.1.0
+Authors@R: 
+    person(given = "Lei",
+           family = "He",
+           role = c("aut", "cre"),
+           email = "leihe@hust.edu.cn",
+           comment = c(ORCID = "0000-0002-4078-2081"))
+    person(given = "Yixian",
+           family = "Fan",
+           role = c("cre"),
+           email = "yixanfan@hust.edu.cn")  
+    person(given = "Sen",
+           family = "Chen",
+           role = c("aut", "cre"),
+           email = "bioinfonote@aliyun.com")
+Maintainer: The package maintainer <bioinfonote@aliyun.com>
+Description: The goal of calFUNscore is to evaluate functional score of tumor cells/tissue using scRNA or bulk transcriptomic data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 3.6)
+Imports: 
+    arules,
+    magrittr,
+    plyr

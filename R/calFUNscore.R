@@ -13,6 +13,8 @@
 #' @return Continuous numerical variables with FUNscore, named by cells or samples.
 #' @import
 #' magrittr
+#' @export
+#' calFUNscore
 #'
 #'
 #' @examples
@@ -31,8 +33,6 @@ calFUNscore <- function(expr,
                         num.rounds = 1000,
                         n.bins = 50,
                         seed = TRUE){
-
-
   options(warn = -1)
   if(is.null(study.type)){stop("please set your study types as 'scRNAseq' or 'bulk_RNAseq'")}
 

@@ -24,6 +24,5 @@ names(funRelatedGeneSet)
 
 fungeneset = funRelatedGeneSet[["Angiogenesis"]]@geneIds
 cfs <- calFUNscore(expr = expr, fungeneset = fungeneset, study.type = "bulk_RNAseq")
-}
 
 ```

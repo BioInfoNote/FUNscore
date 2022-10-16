@@ -12,7 +12,7 @@
 #'
 #' @return Continuous numerical variables with FUNscore, named by cells or samples.
 #' @import magrittr
-#' @import GSEABase
+#' @import GSVA
 #' @import BiocGenerics
 #' @export calFUNscore
 #'

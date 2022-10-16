@@ -6,7 +6,7 @@
 #' @param num.rounds  A integer value to indicate the permutation times of iteration; 1000 by default and 10000 will be better for reproducibility.
 #'
 #' @return Continuous numerical variables with values, named by cells or samples.
-#'
+#' @export get_random_FUN
 #'
 #' @examples
 #'

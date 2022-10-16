@@ -11,10 +11,10 @@
 #' @author Leihe, Yixian Fan,Sen Chen.
 #'
 #' @return Continuous numerical variables with FUNscore, named by cells or samples.
-#' @import
-#' magrittr
-#' @export
-#' calFUNscore
+#' @import magrittr
+#' @import GSEABase
+#' @import BiocGenerics
+#' @export calFUNscore
 #'
 #'
 #' @examples
@@ -24,8 +24,6 @@
 #' fungeneset = funRelatedGeneSet[["Angiogenesis"]]@geneIds
 #' cfs <- calFUNscore(expr = expr, fungeneset = fungeneset, study.type = "bulk_RNAseq")
 #' }
-
-
 
 calFUNscore <- function(expr,
                         fungeneset = NULL,
